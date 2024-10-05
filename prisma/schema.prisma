@@ -10,7 +10,7 @@ datasource db {
 }
 
 generator client {
-  provider = "prisma-client-js"
+  provider = env("DATABASE_URL)
 }
 
 model TableDefinition {
