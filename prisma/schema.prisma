@@ -10,7 +10,7 @@ datasource db {
 }
 
 generator client {
-  provider = env("DATABASE_URL)
+  provider = env("DATABASE_URL")
 }
 
 model TableDefinition {
